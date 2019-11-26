@@ -18,6 +18,7 @@ export const checkCollision = (player, stage, { x: moveX, y: moveY }) => {
 
         //3. check that our move is inside the game area width x
           !stage[y + player.pos.y + moveY][x + player.pos.x + moveX] ||
+
         //4. check that the cell we are moving through isnt set to clear
           stage[y + player.pos.y + moveY][x + player.pos.x + moveX][1] !== 'clear'
         ) {
