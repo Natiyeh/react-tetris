@@ -8,6 +8,7 @@ import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
 //custom hooks
 import { usePlayer } from '../hooks/usePlayer';
 import { useStage } from '../hooks/useStage';
+import { useInterval } from '../hooks/useInterval';
 
 //components
 import Stage from './Stage';
