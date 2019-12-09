@@ -112,6 +112,7 @@ const Tetris = () => {
           )}
           <StartButton callback={startGame} />
         </aside>
+        <aside><h1 style={{color: 'rgb(223,217,36)', fontFamily: 'Pixel, Arial, Helvetica, sans-serif'}}>Tetris</h1></aside>
       </StyledTetris>
     </StyledTetrisWrapper>
   )
