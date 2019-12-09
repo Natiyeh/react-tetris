@@ -112,6 +112,7 @@ const Tetris = () => {
               <span style={{color: 'rgb(223, 217, 36)'}}>R</span>
               <span style={{color: 'rgb(48, 211, 56)'}}>I</span>
               <span style={{color: 'rgb(132, 61, 198)'}}>S</span>
+              <span style={{color: 'rgb(227, 78, 78)'}}>!</span>
             </div>
           )}
             <Display text={`Score: ${score}`} />
