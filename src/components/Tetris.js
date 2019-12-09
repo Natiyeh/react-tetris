@@ -105,6 +105,14 @@ const Tetris = () => {
             <Display gameOver={gameOver} text="Game Over" />
           ) : (
             <div>
+              <div style={{textAlign: 'center', fontSize: '3rem', fontFamily: 'Pixel, Arial, Helvetica, sans-serif'}}>
+                <span style={{color: 'rgb(80, 227, 230)'}}>T</span>
+                <span style={{color: 'rgb(36, 95, 223)'}}>E</span>
+                <span style={{color: 'rgb(223, 173, 36)'}}>T</span>
+                <span style={{color: 'rgb(223, 217, 36)'}}>R</span>
+                <span style={{color: 'rgb(48, 211, 56)'}}>I</span>
+                <span style={{color: 'rgb(132, 61, 198)'}}>S</span>
+              </div>
               <Display text={`Score: ${score}`} />
               <Display text={`Rows: ${rows}`} />
               <Display text={`Level: ${level}`} />
@@ -112,7 +120,6 @@ const Tetris = () => {
           )}
           <StartButton callback={startGame} />
         </aside>
-        <aside><h1 style={{color: 'rgb(223,217,36)', fontFamily: 'Pixel, Arial, Helvetica, sans-serif'}}>Tetris</h1></aside>
       </StyledTetris>
     </StyledTetrisWrapper>
   )
