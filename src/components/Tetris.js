@@ -105,7 +105,7 @@ const Tetris = () => {
           {gameOver ? (
             <Display gameOver={gameOver} text="Game Over" />
           ) : (
-            <div style={{textAlign: 'center', fontSize: '3rem', fontFamily: 'Pixel, Arial, Helvetica, sans-serif'}}>
+            <div style={{textAlign: 'center', fontSize: '8rem', fontFamily: 'Pixel, Arial, Helvetica, sans-serif'}}>
               <span style={{color: 'rgb(80, 227, 230)'}}>T</span>
               <span style={{color: 'rgb(36, 95, 223)'}}>E</span>
               <span style={{color: 'rgb(223, 173, 36)'}}>T</span>
